@@ -1,6 +1,6 @@
 
-import perfil from "../../imagens/perfil.svg";
-import sacola from "../../imagens/sacola.svg";
+import perfil from "../imagens/perfil.svg";
+import sacola from "../imagens/sacola.svg";
 import styled from 'styled-components'
 
 const Icone = styled.li`
@@ -21,7 +21,7 @@ function IconesHeader() {
     <Icones>
       {icones.map((icone) => (
         <Icone>
-          <img src={icones} alt="icones"></img>
+          <img src={icone} alt="icones"></img>
         </Icone>
       ))}
     </Icones>
